@@ -9,59 +9,82 @@
     <link href="/your_path_to_version_6_compiled_files/css/fontawesome.css" rel="stylesheet"> 
 </head>
 <body>
+    
     <header class="home">
+        <div class="logo">
         <img class="image-home" src="Imagens/JB DEVELOPER.png" alt="JB DEVELOPER">
+        </div>
+        <div class="menu-home">
+            <ul>
+                <li class="list active">
+                <a href="#" target="_blank">
+                <span class="icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text">Inicio</span></a></li>
+                <li class="list active">
+                <a href="#" target="_blank">
+                <span class="icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <span class="text">Sobre Eu</span></a></li>
+                <li class="list active">
+                <a href="https://twitter.com/jhonnyrbueno" target="_blank">
+                <span class="icon">
+                    <ion-icon name="code-outline"></ion-icon>
+                </span>
+                <span class="text">Projetos</span></a></li>
+                <li class="list active">
+                <a href="#" target="_blank">
+                <span class="icon">
+                    <ion-icon name="document-text-outline"></ion-icon>
+                </span>
+                <span class="text">Orçamento</span></a></li>
+                <li class="list active">
+                <a href="#" target="_blank">
+                <span class="icon">
+                    <ion-icon name="share-social-outline"></ion-icon>
+                </span>
+                <span class="text">Social</span></a></li>
+
+                <div class="indicator "></div>
+                
+            </ul>
+        </div>
+
+
+    </header>
+    <main>
+    <section>
+       
+        <img class="image-equipe" src="imagens/Equipe Negócio.avif" alt="Equipe Négócio">
+        <div>
+            <h1 class="title-principal">Início</h1>
+            <p class="pargrafo-title01">O projeto para  seu negócio começa aqui, seja ele o que for!</p>
+        </div>
+    </section>
+    </main>
+
+    <footer class="rodapé">
         <div class="media-social">
             <a href="#"><i class="fab fa-facebook-f" alt="Facebook"></i></a>
             <a href="#"><i class="fab fa-instagram" alt="Instagram"></i></a>
             <a href="https://twitter.com/jhonnyrbueno"><i class="fab fa-twitter" alt="Twitter"></i></a>
             <a href="#"><i class="fab fa-github-alt" alt="Git Hub"></i></a>
         </div>
-        <div class="menu-home">
-            <ul>
-                <li class="list">
-                <a href="#">
-                <span class="icon">
-                    <ion-icon name="home-outline"></ion-icon>
-                </span>
-                <span class="text">Inicio</span></a></li>
-                <li class="list">
-                <a href="#">
-                <span class="icon">
-                    <ion-icon name="person-outline"></ion-icon>
-                </span>
-                <span class="text">Sobre Eu</span></a></li>
-                <li class="list">
-                <a href="#">
-                <span class="icon">
-                    <ion-icon name="code-outline"></ion-icon>
-                </span>
-                <span class="text">Desenvolvimento  </span></a></li>
-                <li class="list">
-                <a href="#">
-                <span class="icon">
-                    <ion-icon name="document-text-outline"></ion-icon>
-                </span>
-                <span class="text">Orçamento</span></a></li>
-                <li class="list">
-                <a href="#">
-                <span class="icon">
-                    <ion-icon name="share-social-outline"></ion-icon>
-                </span>
-                <span class="text">Social</span></a></li>
-                
-            </ul>
-        </div>
 
-    </header>
-    
-    <section>
-        <div>
-            <h1 class="title-principal">Início</h1>
-            <p class="pargrafo-title01">O projeto para  seu negócio começa aqui, seja ele o que for!</p>
-        </div>
-        <img class="image-equipe" src="Equipe Negócio.avif" alt="Equipe Négócio">
-    </section>
+    </footer>
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+    </script>
+
     <script src="https://your-site-or-cdn.com/fontawesome/v6.1.1/js/all.js" data-auto-replace-svg="nest"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

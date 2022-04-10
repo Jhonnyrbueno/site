@@ -1,5 +1,6 @@
 # Theme-01
 Criação de Layout Front-End
 
-1 - Criação de do Thema 01
-2 - Criação do menu
+<p>1 - Criação de do Thema 01</p>
+<p>2 - Criação do menu</P>
+<p>3 - Atualização do menu e rodapé com os icones da redes sociais</p>
