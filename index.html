@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JB DEVELOPER - Theme 01</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+    <link href="/your_path_to_version_6_compiled_files/css/fontawesome.css" rel="stylesheet"> 
 </head>
 <body>
     <header class="home">
@@ -16,19 +18,50 @@
             <a href="#"><i class="fab fa-github-alt" alt="Git Hub"></i></a>
         </div>
         <div class="menu-home">
-            <a href="#">
-            <span class="icon"></span>
-            <span class="text">Inicio</span></a>
-            <a href="#">
-            <span class="icon"></span>
-            <span class="text">Sobre Eu</span></a>
-            <a href="#">
-            <span class="icon"></span>
-            <span class="text">Desenvolvimento</span></a>
-            <a href="#">
-            <span class="icon"></span>
-            <span class="text">Orçamento</span></a>
+            <ul>
+                <li class="list">
+                <a href="#">
+                <span class="icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text">Inicio</span></a></li>
+                <li class="list">
+                <a href="#">
+                <span class="icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <span class="text">Sobre Eu</span></a></li>
+                <li class="list">
+                <a href="#">
+                <span class="icon">
+                    <ion-icon name="code-outline"></ion-icon>
+                </span>
+                <span class="text">Desenvolvimento  </span></a></li>
+                <li class="list">
+                <a href="#">
+                <span class="icon">
+                    <ion-icon name="document-text-outline"></ion-icon>
+                </span>
+                <span class="text">Orçamento</span></a></li>
+                <li class="list">
+                <a href="#">
+                <span class="icon">
+                    <ion-icon name="share-social-outline"></ion-icon>
+                </span>
+                <span class="text">Social</span></a></li>
+                <div class="indicator "></div>
+            </ul>
         </div>
+        <script>
+            const list = document.querySelectorAll('.list');
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+            item.addEventListener('click',activeLink));
+        </script>
     </header>
     
     <section>
@@ -38,5 +71,9 @@
         </div>
         <img class="image-equipe" src="Equipe Negócio.avif" alt="Equipe Négócio">
     </section>
+    <script src="https://your-site-or-cdn.com/fontawesome/v6.1.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+Basic usage
 </body>
 </html>

@@ -2,6 +2,8 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
 
+@import "./fontawesome/scss/solid.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +11,13 @@
     text-decoration: none;
 }
 
+:root{
+    --clr: linear-gradient(45deg, #4f0f40 0%,#8f5faf 100%);
+}
+
 body {
     font-size: 100%;
-    background: linear-gradient(45deg, #4f0f40 0%,#8f5faf 100%)
+    background: var(--clr);
     
 }
 
@@ -40,10 +46,121 @@ body {
     height: auto;
 }
 
-.menu-home {
+.menu-home{
     display: flex;
     gap: 2rem;
 }
+
+.menu-home ul{
+    display: flex;
+    width: 350px;
+}
+
+.menu-home ul li{
+    position: relative;
+    list-style: none;
+    width: 70%;
+    height: 70%;
+    z-index: 1;
+}
+
+.menu-home ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+    font-size: 500;
+}
+
+.menu-home ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;   
+    color: #4f0f40;
+
+}
+
+.menu-home ul li:hover a .icon{
+    transform: translateY(35px);
+
+}
+
+.menu-home ul li a .text{ 
+    position: absolute;
+    color: #4f0f40;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    transition: 0.05s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.menu-home ul li.hover a .text{
+    opacity: 1;
+    transform: translateY(-10px); 
+}
+
+.indicador{
+    position: absolute;
+    bottom: -35%;
+    width: 50px;
+    height: 50px;
+    background: #4f0f40;
+    border-radius: 50%;
+    border: 50% var(--clr);
+    transition: 0.5s; 
+    
+}
+
+.indicador:before{
+    content: '';
+    position: absolute;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px -10 0 0 var(--clr);
+    
+}
+
+.indicador:after{
+    content: '';
+    position: absolute;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px -10 0 0 var(--clr);
+    
+}
+
+.menu-home ul li:nth-child(1).active ~ .indicador{
+    transform:translateX(Clac(70px * 0));
+}
+
+.menu-home ul li:nth-child(2).active ~ .indicador{
+    transform:translateX(Clac(70px * 1));
+}
+
+.menu-home ul li:nth-child(3).active ~ .indicador{
+    transform:translateX(Clac(70px * 2));
+}
+
+.menu-home ul li:nth-child(4).active ~ .indicador{
+    transform:translateX(Clac(70px * 3));
+}
+
+.menu-home ul li:nth-child(5).active ~ .indicador{
+    transform:translateX(Clac(70px * 4));
+}
+
 
 .media-social{
     position: absolute;
