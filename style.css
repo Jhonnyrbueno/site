@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -19,8 +18,9 @@
 body {
     display: flex;
     justify-content: center;
-    min-height: 500vh;
     background: var(--clr);
+
+    
     
 }
 
@@ -30,10 +30,12 @@ body {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 0%;
     width: 100%;
     box-shadow: 0 0 8px;
+    z-index: 100;
+    
 }
 
 .home{
@@ -43,6 +45,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
+    
+    
 }
 
 .logo{
@@ -53,7 +57,7 @@ body {
     position: absolute;
     top: 5px;
     right: 75%;
-    height:62px;
+    height:48px;
     width: 200px;
 }
 
@@ -85,7 +89,7 @@ body {
     left: -90%;
     width: 100%;
     text-align: center;
-    font-size: 500;
+    font-size: 1rem;
 }
 
 .menu-home ul li a .icon{
@@ -112,7 +116,6 @@ body {
     position: absolute;
     display: block;
     top: -57%;
-    font-family: roboto;
     line-height: 25px;
     font-size: 0.75em;
     text-align: center;
@@ -121,19 +124,72 @@ body {
 
 }
 
-.menu-home ul li:hover a .text{
+.menu-home ul li:hover a .text {
     opacity: 1;
     transform: translateY(25px); 
 }
 
-.media-social{
+.img-wrapper {
+    width: 104.27%;
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+} 
+
+
+.banner {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+
+}
+
+.banner h1 {
+
+    color: #fff;
+    font-size: 3.7rem;
+    font-family: "roboto" serif;
+    font-weight: 300;
+    text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: moveBanner 1s forwards;
+}
+
+.banner p {
+    font-family: "open sans" serif;
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
+    opacity: 0;
+    animation: moveBanner 1s forwards;
+}
+
+@keyframes moveBanner {
+    0%{
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
+    
+}
+
+.media-social {
     position: center;
     justify-content: center;
     display: flex;
     gap: 1rem;
 }
 
-.media-social i{
+.media-social i {
     background-color: #8f5faf;
     color: rgb(253, 252, 249);
     height: 2rem;
