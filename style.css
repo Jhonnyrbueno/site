@@ -16,7 +16,7 @@
 }
 
 body {
-    display: flex;
+    display: absolute;
     justify-content: center;
     background: var(--clr);
 
@@ -29,7 +29,7 @@ body {
     background-position: 2%;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -115,7 +115,7 @@ body {
 .menu-home ul li a .text{   
     position: absolute;
     display: block;
-    top: -57%;
+    top: -58%;
     line-height: 25px;
     font-size: 0.75em;
     text-align: center;
@@ -129,16 +129,20 @@ body {
     transform: translateY(25px); 
 }
 
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
 .img-wrapper {
-    width: 104.27%;
-    height: 100%;
-    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 100vh;
 }
 
 .img-wrapper img {
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
 } 
 
 
@@ -194,28 +198,24 @@ body {
     color: rgb(253, 252, 249);
     height: 2rem;
     width: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;  
+    border-radius: 100%;  
 }
 
 .rodapé {
     background-color: rgb(253, 252, 249);
-    background-position: -100%;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0%;
     left: 0%;
     width: 100%;
     box-shadow: 0 0 8px;
 }
 
 .rodapé {
-    margin-bottom:-215%;
     position: absolute;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     padding: 1rem;
