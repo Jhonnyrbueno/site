@@ -53,9 +53,9 @@ body {
 .image-home{
     position: absolute;
     top: 5px;
-    right: 75%;
-    height:48px;
-    width: 200px;
+    right: 70%;
+    height: 52px;px;
+    width: 270px;
 }
 
 .menu-home{
@@ -74,7 +74,6 @@ body {
     width: 30%;
     height: 100%;
     z-index: 1;
-    
 }
 
 .menu-home ul li a{
@@ -358,7 +357,7 @@ body {
 .rodapé {
     position: absolute;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-decoration: none;
     padding: 1rem;
 }
@@ -366,7 +365,7 @@ body {
 .rodapelogo-img-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 0.5rem;
     width: 100%;
 }
