@@ -12,3 +12,4 @@ Criação de Layout Front-End
 <p>09 - Colocação do itens conhecimentos cok fonte, texto e imagem</p>
 <p>10 - Inclusão do pefil com imagem e descrição</P>
 <p>11 - Correção de itens como a sessão conhecimento</P>
+<p>12 - Criação do Formulário de Contato</p>
