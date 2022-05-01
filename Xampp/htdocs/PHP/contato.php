@@ -20,12 +20,12 @@ if ($nome && $email && $assunto && $mensagem){
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'jhonnyrbueno@gmail.com';
-	$mail->Password = '551801Mona';
+	$mail->Username = 'meuemail@servidor.com';
+	$mail->Password = '1234';
 	$mail->Port = 587;
 
-	$mail->setFrom('jhonnyrbueno@gmail.com');
-	$mail->addAddress('jhonnyrbueno@gmail.com');
+	$mail->setFrom('meuemail@servidor.com');
+	$mail->addAddress('meuemail@servidor.com');
 
 	$mail->isHTML(true);
 	$mail->Subject = $assunto;
