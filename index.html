@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhonny Bueno - Developer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -151,22 +152,26 @@
         <div class="contato-wrapper">
             <div class="contato-left">
                 <h1>Contato</h1>
-                <form action="Xampp/htdocs/PHP/contato.php" method="post">
+                <form action="https://formsubmit.co/jhonnyrbueno@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_autoresponse" value="Olá, obrigado pelo seu contato, logo entraremos em contato. Att. Jhonny Bueno - Developer">
+                    <input type="hidden" name="_template" value="table">
                     <div class="input-group">
-                        <input type="text" class="field" id="nome" required placeholder="NOME">
-                        <label for="nome" class="field-label"></label>
+                        <input type="text" class="field" name="name" required placeholder="NOME">
+                        <label for="name" class="field-label"></label>
                     </div>
                     <div class="input-group">
-                        <input type="email" class="field" id="e-mail" required placeholder="E-MAIL">
-                        <label for="e-mail" class="field-label"></label>
+                        <input type="email" class="field" name="email" required placeholder="E-MAIL">
+                        <label for="email" class="field-label"></label>
                     </div>
                     <div class="input-group">
-                        <input type="assunto" class="field" id="assunto" required placeholder="ASSUNTO">
-                        <label for="assunto" class="field-label"></label>
+                        <input type="text" class="field" name="subject" required placeholder="ASSUNTO">
+                        <label for="subject" class="field-label"></label>
                     </div>
                     <div class="input-group">
-                        <textarea class="field" id="mensagem" required placeholder="MENSAGEM"></textarea>
-                        <label for="mensagem" class="field-label"></label>
+                        <textarea class="field" name="message" id="mensagem" required placeholder="MENSAGEM"></textarea>
+                        <label for="message" class="field-label"></label>
                     </div>
                     <button type="submit" class="btn-submit">Enviar</button>
                 </form>
