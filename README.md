@@ -1,4 +1,4 @@
-# Theme-01
+# JB-Developer
 Criação de Layout Front-End
 
 <p>01 - Criação de do Thema 01</p>
