@@ -13,3 +13,4 @@ Criação de Layout Front-End
 <p>10 - Inclusão do pefil com imagem e descrição</P>
 <p>11 - Correção de itens como a sessão conhecimento</P>
 <p>12 - Criação do Formulário de Contato</p>
+<p>12 - Finalização do formulario de contato para o envio de email via https://formsubmit.co</p>
