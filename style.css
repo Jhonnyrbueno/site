@@ -311,7 +311,7 @@
 }
 
 .img-parallax {
-    background: url(imagens/Cod-Dev.png);
+    background: url(imagens/Code-Dev.png);
     background-color: rgba(7, 7, 7, 0.89);
     background-blend-mode: lighten;
     background-attachment: fixed;
@@ -353,7 +353,7 @@
 
 .contato-right {
     width: 50%;
-    background: url(https://github.com/Jhonnyrbueno/site/blob/main/Imagens/Correio-eletronico.jpg);
+    background: url(Imagens/email.jpg);
     background-size: cover;
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
