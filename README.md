@@ -6,9 +6,9 @@ Criação de Layout Front-End
 <p>02 - Criação do menu</P>
 <br>
 <p>
-    <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.com.logo.PNG" align="center">
+    <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.com.logo.PNG" aling="center">
     <p>Efeito feito com hover no CSS</p>
-    <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.png" align="center">
+    <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.png" aling="center">
 <p>03 - Atualização do menu e rodapé com os icones da redes sociais</p>
 <p>04 - Inclusão do icones Favicon</p>
 <p>05 - Inclusão do banner e do titulo e decrição com animação</p>
