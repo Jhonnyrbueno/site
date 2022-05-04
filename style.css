@@ -15,14 +15,6 @@
     --clr: linear-gradient(45deg, #4f0f40 0%,#8f5faf 100%);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    display: absolute;
-    justify-content: center;
-    height: 100vw;  
-}
-
 .home {
     background-color: #fff;
     background-position: 2%;
@@ -30,7 +22,7 @@ body {
     top: 0%;
     left: 0%;
     width: 100%;
-    z-index: 100;   
+    z-index: 100; 
 }
 
 .home{
