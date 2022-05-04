@@ -1,12 +1,17 @@
 # JB-Developer
 Criação de Layout Front-End
-
+##
 <p>01 - Criação do site portifólio</p>
+<br>
 <p>02 - Criação do menu</P>
-!
+<br>
+<p align="center">
+    <img src="Imagens-construcao/menu_com_logo.PNG">
+    <p>Efeito feito com hover no CSS</p>
+    <img src="Imagens-construcao/menu.png">
 <p>03 - Atualização do menu e rodapé com os icones da redes sociais</p>
 <p>04 - Inclusão do icones Favicon</p>
-<p>05 - Inclusão do banner e do titulo e decrição imocila com animação</p>
+<p>05 - Inclusão do banner e do titulo e decrição com animação</p>
 <p>06 - Correção da barra do menu e rodapé</p>
 <p>07 - Inclusão da logo e desenvolverdor no rodapé</p>
 <p>08 - Inclusão na fonte sociais hover</p>

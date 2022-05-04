@@ -20,7 +20,7 @@
 <header>
 <div class="home">
     <div class="logo">
-        <img class="image-home" src="#" alt="JB DEVELOPER">
+        <img class="image-home" src="Imagens/JB DEVELOPER.png" alt="JB DEVELOPER">
     </div>
     <div class="menu-home">
         <ul>
@@ -228,6 +228,20 @@
         function loadModal() {
             $('.action').html('<iframe src="https://formsubmit.co/jhonnyrbueno@gmail.com" width="900" height="600"></iframe>');
         }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").append("<a href='#' class='back-to-top'><i class='fa fa-arrow-circle-up' aria-hidden='true'></i></a>"),
+                $(function toTop() {
+                    $(window).scroll(function () {
+                        $(this).scrollTop() > 400 ? $(".back-to-top").fadeIn() : $(".back-to-top").fadeOut()
+                    }), $(".back-to-top").click(function () {
+                        return $("html, body").animate({
+                            scrollTop: 0
+                        }, 900), !1
+                    })
+                });
+        })
     </script>
 
 </body>
