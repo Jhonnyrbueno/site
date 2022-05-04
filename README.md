@@ -5,7 +5,7 @@ Criação de Layout Front-End
 <p>02 - Criação do menu</P>
 <p>
     <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.com.logo.PNG" aling="center">
-    <p>> Efeito feito com hover no CSS</p>
+    > Efeito feito com hover no CSS
     <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/Menu.png" aling="center">
 <p>03 - Atualização do menu e rodapé com os icones da redes sociais</p>
     <img src="https://github.com/Jhonnyrbueno/JB-Developer/blob/main/Imagens-construcao/rede-social.PNG" aling="center">
