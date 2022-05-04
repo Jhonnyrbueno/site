@@ -1,8 +1,9 @@
 # JB-Developer
 Criação de Layout Front-End
 
-<p>01 - Criação de do Thema 01</p>
+<p>01 - Criação do site portifólio</p>
 <p>02 - Criação do menu</P>
+!
 <p>03 - Atualização do menu e rodapé com os icones da redes sociais</p>
 <p>04 - Inclusão do icones Favicon</p>
 <p>05 - Inclusão do banner e do titulo e decrição imocila com animação</p>
@@ -13,4 +14,6 @@ Criação de Layout Front-End
 <p>10 - Inclusão do pefil com imagem e descrição</P>
 <p>11 - Correção de itens como a sessão conhecimento</P>
 <p>12 - Criação do Formulário de Contato</p>
-<p>12 - Finalização do formulario de contato para o envio de email via https://formsubmit.co</p>
+<p>13 - Finalização do formulario de contato para o envio de email via https://formsubmit.co</p>
+<p>14 - Implementação do documento HTML de "Obrigado pelo seu contato"</p>
+<p>15 - Estilização com o CSS do documento HTML</p>
