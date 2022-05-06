@@ -1035,5 +1035,9 @@
         max-width: 20rem;
         max-height: 5rem;
     }
+    .back-to-top {
+        bottom: 8rem;
+        right: 0.5rem;
+    }
     
 }
