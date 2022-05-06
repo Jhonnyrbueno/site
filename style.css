@@ -650,12 +650,121 @@
 }
 
 @media (max-width: 1600px) {
+    .image-home{
+        position: absolute;
+        top: 5px;
+        left: 10rem;
+        height: 68px;
+        width: 350px;
+    }
+    .menu-home{
+        gap: 1rem;
+    }
+    
+    .menu-home ul{
+        display: flex;
+        width: 480px;
+    }
+    
+    .menu-home ul li{
+        width: 100%;
+        height: 100%;
+    }
+    .menu-home ul li a{
+        font-size: 3rem;
+        left: -100%;
+        width: 100%;
+    }
+    .menu-home ul li a .icon{
+        height: 4rem;
+        width: 4rem;
+        font-size: 2rem;
+    }
+    .menu-home ul li:hover a .icon{
+        transform: translateY(40px);
+    
+    }
+    .menu-home ul li a .text{   
+        position: absolute;
+        display: block;
+        top: -58%;
+        line-height: 20px;
+        font-size: 1.2rem;
+    }
+    .menu-home ul li:hover a .text {
+        opacity: 1;
+        transform: translateY(40px); 
+    }
+    .banner h1 {
+        font-size: 4.9rem;
+    }
+    .banner p {
+        font-size: 1.7rem;
+    }
+    .perfil h1{
+        font-size: 3rem;
+    }
+    .img-perfil img {
+        margin-bottom: 5rem;
+        border-radius: 50rem;
+        border-end-end-radius: 5rem;
+    }
+    .img-perfil p {
+        font-size: 2rem;
+    }
+    .sessao-header h2 {
+        font-size: 3rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .conhecimento-header i {
+        font-size: 4rem;
+    }
+    .conhecimento-header h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.8rem;
+        padding-left: 2rem;
+        color: rgb(82, 79, 79);
+    }
     .conhecimento-img-wrapper {
         grid-column: 8/11;
         grid-row: 2/2;
-        width: 70%;
+        width: 75%;
     }
     .parallax span {
-        margin-left: 63rem;
+        font-size: 2.5rem;
+        margin-left: 55rem;
+    }
+
+    .sessao-contato h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .field { 
+        width: 27rem;
+        font-size: 1rem;
+        height: 3rem;
+    }
+
+    .btn-submit {
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .input-group textarea {
+        max-width: 40rem;
+        max-height: 15rem;
+    }
+    .media-social a i {
+        height: 2.7rem;
+        width: 2.7rem;
+        font-size: 1.5rem;
+    }
+    .desenvolvedor-text p {
+        font-size: 1.5rem;
+    }
+    .back-to-top i {
+        font-size: 4em;
     }
 }
