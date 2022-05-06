@@ -1007,3 +1007,33 @@
         font-size: 3em;
     }
 }
+
+/*monile tablet*/
+
+@media (max-width: 768px) {
+    html {
+        font-size: 75%;
+    }
+    .image-home{
+        position: absolute;
+        top: 5px;
+        left: 5rem;
+        height: 39px;
+        width: 200px;
+    }
+    #mensagem {
+        height: 8rem;
+    }
+    .field {
+        width: 20rem;
+        font-size: 1.4rem;
+        height: 1.5rem;
+        margin: 1rem 0;
+    }
+    .input-group textarea {
+        padding-top: .1rem;
+        max-width: 20rem;
+        max-height: 5rem;
+    }
+    
+}
