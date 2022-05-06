@@ -612,7 +612,7 @@
         width: 60%;
     }
     .parallax span {
-        margin-left: 105rem;
+        margin-left: 100rem;
         font-size: 3rem;
     }
 
@@ -643,6 +643,10 @@
     }
     .desenvolvedor-text p {
         font-size: 2rem;
+    }
+    .back-to-top {
+        bottom: 3.3rem;
+        right: 2rem;
     }
     .back-to-top i {
         font-size: 6em;
@@ -764,6 +768,10 @@
     .desenvolvedor-text p {
         font-size: 1.5rem;
     }
+    .back-to-top {
+        bottom: 3rem;
+        right: 1.3rem;
+    }
     .back-to-top i {
         font-size: 4em;
     }
@@ -779,6 +787,10 @@
     }
     .desenvolvedor-text p {
         font-size: 1.2rem;
+    }
+    .back-to-top {
+        bottom: 3rem;
+        right: 1rem;
     }
     .back-to-top i {
         font-size: 3.5em;
@@ -888,6 +900,10 @@
     }
     .desenvolvedor-text p {
         font-size: 0.7rem;
+    }
+    .back-to-top {
+        bottom: 2.4rem;
+        right: 0.7rem;
     }
     .back-to-top i {
         font-size: 3em;
@@ -1003,6 +1019,10 @@
     .desenvolvedor-text p {
         font-size: 1rem;
     }
+    .back-to-top {
+        bottom: 2.8rem;
+        right: 0.7rem;
+    }
     .back-to-top i {
         font-size: 3em;
     }
@@ -1021,6 +1041,20 @@
         height: 39px;
         width: 200px;
     }
+    .perfil {
+        padding: 3rem;
+    }
+    .img-perfil {
+        flex-direction: column;
+    }
+    .img-perfil img {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    .img-perfil p {
+        margin-top: 1.8rem;
+        margin-bottom: 4rem;
+    }
     #mensagem {
         height: 8rem;
     }
@@ -1036,8 +1070,8 @@
         max-height: 5rem;
     }
     .back-to-top {
-        bottom: 8rem;
-        right: 0.5rem;
+        bottom: 3rem;
+        right: 0.7rem;
     }
     
 }
