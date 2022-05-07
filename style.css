@@ -563,9 +563,7 @@
         transform: translateY(55px);
     
     }
-    .menu-home ul li a .text{   
-        position: absolute;
-        display: block;
+    .menu-home ul li a .text{
         top: -38%;
         line-height: 30px;
         font-size: 2rem;
@@ -601,10 +599,8 @@
         font-size: 6rem;
     }
     .conhecimento-header h3 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 3rem;
         padding-left: 2rem;
-        color: rgb(82, 79, 79);
     }
     .conhecimento-img-wrapper {
         grid-column: 8/11;
@@ -1055,6 +1051,9 @@
         margin-top: 1.8rem;
         margin-bottom: 4rem;
     }
+    .sessao-contato {
+        height: 50vh;
+    }
     #mensagem {
         height: 8rem;
     }
@@ -1078,14 +1077,114 @@
 
 /*mobile cell*/
 
+@media (max-width: 604px) {
+    .conhecimento:nth-child(3) { /*bootstrap*/
+        grid-column: 10/16;
+        grid-row: 1/8;
+    }
+    
+    .conhecimento:nth-child(5) { /*react*/
+        grid-column: 10/16;
+        grid-row: 3/6;
+    }
+    
+    .conhecimento:nth-child(6) { /*git*/
+        grid-column: 10/16;
+        grid-row: 5/6;
+    }
+    .conhecimento-img-wrapper {
+        display: none;
+    }
+    .parallax span {
+        font-size: 1.5rem;
+        margin-left: 15rem;
+    }
+    .contato-right {
+        display: none;
+        width: 0%;
+    }
+    .contato-left {
+        width: 100%;
+        border-radius: 1rem;
+    }  
+    
+}
+
 @media (max-width: 425px) {
+    .conhecimento:nth-child(3) { /*bootstrap*/
+        grid-column: 10/16;
+        grid-row: 1/8;
+    }
+    
+    .conhecimento:nth-child(5) { /*react*/
+        grid-column: 10/16;
+        grid-row: 3/6;
+    }
+    
+    .conhecimento:nth-child(6) { /*git*/
+        grid-column: 10/16;
+        grid-row: 5/6;
+    }
+    .conhecimento-img-wrapper {
+        display: none;
+    }
+    .parallax span {
+        font-size: 1.5rem;
+        margin-left: 15rem;
+    }
+    .contato-right {
+        display: none;
+        width: 0%;
+    }
+    .contato-left {
+        width: 100%;
+        border-radius: 1rem;
+    }  
     
 }
 
 @media (max-width: 375px) {
-    
+    .banner {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+    }
+    .banner p {
+        font-size: 1rem;
+    }
+    .parallax span {
+        font-size: 1.5rem;
+        margin-left: 11rem;
+    }
 }
 
 @media (max-width: 320px) {
+    .banner p {
+        font-size: 0.8rem;
+    }
+    .conhecimento-header i {
+        font-size: 3rem;
+    }
+    .conhecimento-header h3 {
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+    .contato-left {
+        width: 100%;
+        right: 5rem;
+        border-radius: 1rem;
+    }
+    .field { 
+        width: 18rem;
+        height: 2rem;
+        padding: 1rem;
+    }
+    .input-group textarea {
+        max-width: 18rem;
+        max-height: 3.5rem;
+    }
+    .btn-submit {
+        height: 2rem;
+    }
     
 }
