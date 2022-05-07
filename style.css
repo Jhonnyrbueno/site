@@ -1099,30 +1099,22 @@
 
 @media (max-width: 604px) {
     .img-perfil img {
-        display: flex;
         width: 50%;
         height: 45%;
-        margin-bottom: 2rem;
-        border-radius: 10rem;
-        border-end-end-radius: 1rem;
     }
-    
     .img-perfil p {
         font-size: 1.2rem;
         width: 70%;
         height: 50%;
-    
     }
     .conhecimento:nth-child(3) { /*bootstrap*/
         grid-column: 10/16;
         grid-row: 1/8;
     }
-    
     .conhecimento:nth-child(5) { /*react*/
         grid-column: 10/16;
         grid-row: 3/6;
     }
-    
     .conhecimento:nth-child(6) { /*git*/
         grid-column: 10/16;
         grid-row: 5/6;
