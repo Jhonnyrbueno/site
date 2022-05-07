@@ -1030,7 +1030,27 @@
     html {
         font-size: 75%;
     }
-    .image-home{
+    .home {
+        background-color: #fff;
+        width: 100%;
+        height: 0px;
+    }
+    .menu-home {
+        display: none;
+    }
+    .one, .two, .three {
+        background-color: #000;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        z-index: -99;
+    }
+    .menu-toggle {
+        width: 40px;
+        height: 70px;
+        margin-right: 20px;
+    }
+    .image-home {
         position: absolute;
         top: 5px;
         left: 5rem;
