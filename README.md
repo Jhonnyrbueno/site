@@ -1,4 +1,4 @@
-# JB-Developer
+# Jhonny Bueno-Developer
 Criação de Layout Front-End
 ##
 <p>01 - Criação do site portifólio</p>
