@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhonny Bueno - Developer</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
@@ -17,76 +18,50 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<header>
-<div class="home">
-    <div class="logo">
-        <img class="image-home" src="Imagens/JB DEVELOPER.png" alt="JB DEVELOPER">
-    </div>
-    <div class="menu-toggle">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-    </div>
-    <div class="menu-home">
-        <ul>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                    <span class="text">Inicio</span></a>
-            </li>
-            <li class="list">
-                <a href="#perfil">
-                    <span class="icon">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </span>
-                    <span class="text">Sobre Eu</span></a>
-            </li>
-            <li class="list">
-                <a href="#conhecimentos">
-                    <span class="icon">
-                        <ion-icon name="code-outline"></ion-icon>
-                    </span>
-                    <span class="text">Code</span></a>
-            </li>
-            <li class="list">
-                <a href="#contato">
-                    <span class="icon">
-                        <ion-icon name="document-text-outline"></ion-icon>
-                    </span>
-                    <span class="text">Contato</span></a>
-            </li>
-            <li class="list">
-                <a href="#midia-social">
-                    <span class="icon">
-                        <ion-icon name="share-social-outline"></ion-icon>
-                    </span>
-                    <span class="text">Social</span></a>
-            </li>
 
-        </ul>
-    </div>
-
-</div>
-</header>
 
 <body>
-
-
-
-
-    <main>
-        <section class="primeira-secao">
-            <div class="img-wrapper">
-                <img src="Imagens/equipe-ti.png" alt="Equipe Négócio">
-                <div class="banner">
-                    <h1 class="title-principal">Aqui é o começo de tudo.</h1>
-                    <p class="pargrafo-title01">O projeto para seu negócio começa aqui, seja ele qual for!</p>
+    <header>
+        <div class="logo">
+            <img class="image-home" src="Imagens/JB DEVELOPER.png" alt="Jhonny Bueno Developer" />
+            <div class="menu-section">
+                <div class="menu-toggle on">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
                 </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#perfil">Sobre Eu</a>
+                        </li>
+                        <li>
+                            <a href="#conhecimentos">Code</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                        <li>
+                            <a href="#midia-social">Social</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-
+        </div>
+    </header>
+    <section class="primeira-secao">
+        <div class="img-wrapper">
+            <img src="Imagens/equipe-ti.png" alt="Equipe Négócio">
+            <div class="banner">
+                <h1 class="title-principal">Aqui é o começo de tudo.</h1>
+                <p class="pargrafo-title01">O projeto para seu negócio começa aqui, seja ele qual for!</p>
+            </div>
+        </div>
+    </section>
+<main>
         <section class="quem-sou" id="perfil">
 
             <div class="perfil">
@@ -205,9 +180,7 @@
             </div>
 
         </section>
-
     </main>
-
     <footer class="rodapé">
         <div class="media-social" id="midia-social">
             <a href="https://www.facebook.com/jhonnyrbueno" target="_blank"><i class="fab fa-facebook-f"
@@ -234,20 +207,8 @@
             $('.action').html('<iframe src="https://formsubmit.co/jhonnyrbueno@gmail.com" width="900" height="600"></iframe>');
         }
     </script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("body").append("<a href='#' class='back-to-top'><i class='fa fa-arrow-circle-up' aria-hidden='true'></i></a>"),
-                $(function toTop() {
-                    $(window).scroll(function () {
-                        $(this).scrollTop() > 400 ? $(".back-to-top").fadeIn() : $(".back-to-top").fadeOut()
-                    }), $(".back-to-top").click(function () {
-                        return $("html, body").animate({
-                            scrollTop: 0
-                        }, 900), !1
-                    })
-                });
-        })
-    </script>
+    <script src="menu-toggle.js"></script>
+    <script src="functions.js"></script>
 
 </body>
 
