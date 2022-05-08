@@ -36,10 +36,13 @@ Criação de Layout Front-End
     <p>Implementação do botão volta com o uso do CSS e javaScript, para assim retornar ao inicio da página</p>
 <p>15 - Alteração do menu nav</p>
     <img src="https://github.com/Jhonnyrbueno/site/blob/main/Imagens-construcao/menu-novo.png" aling="center">
-    <p>Novo estilização do menu, para melhor visualização de que esta vendo o site, seja no desktop, notebook e tablets</p>
+    <p>Novo estilização do menu, para melhor visualização de quem esta vendo o site, seja no desktop, notebook e tablets</p>
 <p>16 - Finalização do menu Toggle</p>
     <img src="https://github.com/Jhonnyrbueno/site/blob/main/Imagens-construcao/menu-toggle.png" aling="center">
     <p>Conclusão do menu Toggle para dispositiveis mobile</p>
     <img src="https://github.com/Jhonnyrbueno/site/blob/main/Imagens-construcao/menu-toggle-links.png" aling="center">
 <p>17 - Conclusão do site responsivo</p>
     <p>Conclusão via CSS das medias para o site responsivo em vários dispositiveis, assim deixando uma experiencia melhor ao úsuario</p>
+    
+<p>Acesse o meu perfil https://jhonnyrbueno.github.io/site/</a>
+
