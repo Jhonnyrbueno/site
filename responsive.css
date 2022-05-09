@@ -1,6 +1,6 @@
 @import url(style.css);
 
-@media (max-width: 2560px) {    
+@media (max-width: 2560px) {   
     .banner h1 {
         font-size: 9.7rem;
         margin-bottom: 7rem;
