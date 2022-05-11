@@ -9,11 +9,11 @@ menuSection.addEventListener("click", () => {
 
     menuSection.classList.toggle("on");
     menuToggle.classList.toggle("on");
+
+    show = !show
 })
 
 menuSection.addEventListener(".link").forEach(n => n.addEventListener("click", () =>{
-
-    document.body.style.overflow = show ? "hidden" : "initial"
 
     menuSection.classList.remove("on");
     menuToggle.classList.remove("on");
