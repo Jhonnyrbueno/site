@@ -470,11 +470,11 @@
 @media (max-width: 768px) {
     html {
         font-size: 75%;
+        
     }
     nav {
         display: none;
     }
-
     .one,
     .two,
     .three {
@@ -529,18 +529,18 @@
         background-color: #fff;
     }
 
-    .menu-section.on nav ul {
+    .menu-section nav ul {
         text-align: center;
         display: block;
     }
 
-    .menu-section.on nav ul a{
+    .menu-section nav ul a{
         color: #fff;
         transition-duration: 0.5s;
         font-size: 1.5rem;
         line-height: 0.5rem;
         display: block;
-        
+        cursor: pointer; 
     }
     .perfil {
         padding: 3rem;
@@ -571,7 +571,7 @@
         max-height: 5rem;
     }
     .back-to-top {
-        bottom: 3rem;
+        bottom: 5rem;
         right: 0.7rem;
     }
     
