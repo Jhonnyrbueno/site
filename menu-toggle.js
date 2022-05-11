@@ -1,15 +1,20 @@
 let show = true
 
 const menuSection = document.querySelector(".menu-section")
-const menuToggle = menuSection.querySelector(".menu-toggle")
+const menuToggle = document.querySelector(".menu-toggle")
 
-menuToggle.addEventListener("click", () => {
+menuSection.addEventListener("click", () => {
 
     document.body.style.overflow = show ? "hidden" : "initial"
 
-    menuSection.classList.toggle("on", show)
-
-    show = !show
-
-    show.addEventListener.remove("off", link)
+    menuSection.classList.toggle("on");
+    menuToggle.classList.toggle("on");
 })
+
+menuSection.addEventListener(".link").forEach(n => n.addEventListener("click", () =>{
+
+    document.body.style.overflow = show ? "hidden" : "initial"
+
+    menuSection.classList.remove("on");
+    menuToggle.classList.remove("on");
+}));
