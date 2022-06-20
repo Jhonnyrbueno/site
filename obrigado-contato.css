@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    width: 100vw;
+    height: 100vh;
+}
 .sessao-contato {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #8f5faf;
     display: flex;
